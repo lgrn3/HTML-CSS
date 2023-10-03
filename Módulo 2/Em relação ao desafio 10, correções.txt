@@ -1,0 +1,18 @@
+Nav tem que ficar para fora do Header
+criar uma pasta para css
+na parte da lista eu nao sabia qual caixa criar, criei uma div, mas o professor utilizou 'aside'
+As palavras mais fortes no texto ele usou no próprio html a tag <strong></strong>
+Trabalhar com variável (:root{
+                             --}) Root é a raiz, é um elemento q vai valer para todo seu projeto. As variáveis -- vão substituir nomes, por exemplo, --cor01:#212021 ; eu dei um nome para a cor.
+Para as fontes, ele também colocou nas variaveis
+--fonte-padrão:
+--fonte-destaque:
+*{margin: 0px;
+  padding:0px;
+ } Configuração global para nada ter padding e margin, dessa forma eu consigo eu mesmo mexer nessas configurações, sem deixar a configuração automatica atrapalhar
+margin auto
+min width
+max width
+picture img source
+img width 100% 
+tudo isso faz com que o site fique responsivo

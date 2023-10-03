@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        .verde{
+            color: green;
+            text-shadow: 5px 5px 5px lightgreen;
+        }
+        .azul{
+            color: rgb(28, 0, 128);
+            text-shadow: 5px 5px 5px lightblue;
+        }
+        #d1{
+         background-color: lightgray;
+         width: 100px;
+         height: 100px;
+         border: 0.5px solid blue;
+        }
+        #d2{
+         background-color: lightgoldenrodyellow;
+         width: 100px;
+         height: 100px;
+         border: 0.5px solid blue;
+        }
+        #d3{
+         background-color: rgb(226, 52, 157);
+         width: 150px;
+         height: 150px;
+         border: 0.5px solid blue;
+         border-radius: 50px;
+         text-align: center;
+         color: white;
+         font-size: 2em;
+         margin: auto;
+         
+        }
+        div{
+            display: inline-block;
+        }
+        div#d2 > #d3{
+            display: none;
+        }
+        div#d2:hover > #d3{
+            display: block;
+        }
+        div#d1 > #d3{
+            display: none;
+        }
+        #d1:hover > #d3 .class="verde"{
+            display: block;
+        }
+            
+
+    </style>
+</head>
+    <body>
+        <div id="d2" style="font-family: fantasy;">
+            <div id="d3"> ❤️
+                <br> vamos bolsonaro
+                <br>
+            </div>
+        </div>
+   
+        
+
+</body>
+</html>

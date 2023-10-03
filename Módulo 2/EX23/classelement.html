@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class element</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+              color:red ;
+              font-weight: bold;
+              text-decoration: none;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: oblique;
+            font-size: 19px;
+            
+        } 
+        a:active {
+            color: aliceblue;
+        }
+        a::after {content:   ' ⇒';
+        color: rgba(0, 0, 0, 0.452);
+        text-decoration: none;
+        font-weight: 300;
+        }
+        div{
+            width: 600px;
+            height: 100px;
+            border: 0,5px solid blue;
+            background-color: aqua;
+            padding: 5px;
+        }
+        
+        
+            
+
+        
+
+            
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Links</h1>
+    </center>
+    <center>
+        <div>
+            <ul type="A" start="3">
+                <li style="color: lightgray;"> <a href="https://www.youtube.com/watch?v=A1BaZr82XJI" target="_blank" rel="external"> Aprenda a programar</a>
+                </li>
+                <li style="color: lightgray;"> <a href="https://alunos.of3dacademy.com.br/auth/login?redirect=/area/vitrine/590" target="_blank" rel="external"> Aprenda a produzir renderers de arquitetura</a>
+                </li>
+                <li style="color: lightgray;"> <a href="https://mapas.rio.rj.gov.br/lbb.php" target="_blank" rel="external"> Esse site te ajudara a conhecer melhor sobre o plano urbanistico do Rio de Janeiro</a>
+                </li>
+            </ul>
+        </div>
+    </center>
+    
+</body>
+</html>

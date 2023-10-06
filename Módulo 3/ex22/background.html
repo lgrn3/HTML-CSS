@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background</title>
     <style>
-        :root
+        :root{
+            --cor01: aqua;
+            --cor02: orange;
+            --cor03: red;
+        }
+        body{
+            background-image: url('imagens/wallpaper002.jpg');
+        }
         
         .quadrado {
             display: inline-block;
@@ -15,10 +22,10 @@
             border-radius: 5px 5px 5px 5px;
         }
         div#q1 {
-            background-color: aqua;
+            background-color: var(--cor01);
         }
         div#q2 {
-            background-image: linear-gradient(to bottom, orange, red);
+            background-image: linear-gradient(to bottom, var(--cor02), var(--cor03));
         }
         div#q3 {
             background-image: url('imagens/pattern001.png');

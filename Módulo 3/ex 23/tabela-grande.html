@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <!--ANATOMIA TABELAS GRANDES
+    THEAD
+        tr
+        td
+        th
+    TBODY
+        tr
+        td
+        th
+    TFOOT
+        tr
+        td
+        th
+    -->
+    <style>
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: grey;
+        }
+        .foot{
+            height: 30px;
+        }
+        td:nth-child(3){
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <table>
+        <thead>
+            <th>Ordem</th>
+            <th>Federação</th>
+            <th>População</th>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total de Habitantes</th>
+            <td class="foot">26</td>
+        </tfoot>
+    </table>
+</body>
+</html>
+    
+           
+    

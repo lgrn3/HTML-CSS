@@ -19,13 +19,21 @@
         th
     -->
     <style>
+        
         table{
+            margin: auto;
             width: 600px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:  grey;
         }
         thead, tfoot{
             background-color: grey;
@@ -33,18 +41,35 @@
         .foot{
             height: 30px;
         }
-        td:nth-child(3){
-            text-align: right;
+        th{
+            background-color: darkgrey;
+        }
+    
+        tr:nth-child(even){
+            background-color: lightgrey;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        caption{
+            background-color: lightgray;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
         }
     </style>
 </head>
 <body>
     <h1>Tabelas Grandes</h1>
     <table>
+        <caption>ESTADOS FEDERATIVOS</caption>
         <thead>
-            <th>Ordem</th>
-            <th>Federação</th>
-            <th>População</th>
+            <tr>
+                <th scope="col">Ordem</th>
+                <th scope="col">Federação</th>
+                <th scope="col">População</th>
+            </tr>
         </thead>
         
         <tbody>
@@ -63,10 +88,107 @@
                 <td>Amazonas</td>
                 <td>8</td>
             </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+                <td rowspan="2">8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amazonas</td>
+               
+            </tr>
+            
+
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
-            <td class="foot">26</td>
+            <th scope="row">Total de Habitantes</th>
+            <td class="foot" colspan="2">26</td>
         </tfoot>
     </table>
 </body>

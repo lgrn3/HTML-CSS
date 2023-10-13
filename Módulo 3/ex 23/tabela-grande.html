@@ -25,6 +25,7 @@
             width: 600px;
             border-collapse: collapse;
             position: relative;
+            position: ;
         }
         td, th{
             border: 1px solid black;
@@ -58,139 +59,147 @@
             font-weight: bold;
             padding: 5px;
         }
+        .a{
+            position: sticky;
+            left: -4px;
+        }
+      
     </style>
 </head>
 <body>
     <h1>Tabelas Grandes</h1>
-    <table>
-        <caption>ESTADOS FEDERATIVOS</caption>
-        <thead>
-            <tr>
-                <th scope="col">Ordem</th>
-                <th scope="col">Federação</th>
-                <th scope="col">População</th>
-            </tr>
-        </thead>
+    <div id="container">
+        <table>
+            <colgroup>
+            <col class="a"></colgroup>
+            <caption>ESTADOS FEDERATIVOS</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Ordem</th>
+                    <th scope="col">Federação</th>
+                    <th scope="col">População</th>
+                </tr>
+            </thead>
         
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>São Paulo</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Minas Gerais</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-                <td rowspan="2">8</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Amazonas</td>
-               
-            </tr>
-            
-
-        </tbody>
-        <tfoot>
-            <th scope="row">Total de Habitantes</th>
-            <td class="foot" colspan="2">26</td>
-        </tfoot>
-    </table>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>São Paulo</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Minas Gerais</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+                    <td rowspan="2">8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amazonas</td>
+        
+                </tr>
+        
+            </tbody>
+            <tfoot>
+                <th scope="row">Total de Habitantes</th>
+                <td class="foot" colspan="2">26</td>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
     
